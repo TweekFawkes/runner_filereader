@@ -1,3 +1,3 @@
 # File Reader
 
-Testing of file upload feature
+Example of File Upload Feature
