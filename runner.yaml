@@ -1,5 +1,5 @@
 runner:
-  name: File Reader
+  name: Example File Reader Runner
   description: Example of File Upload Feature
   version: 0.0.2
 
