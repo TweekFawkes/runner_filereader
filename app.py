@@ -17,6 +17,15 @@ def main():
         sys.exit(1)
         
     print(f"Reading the File: {file_path}")
+    
+    # Read and print file line by line
+    try:
+        with open(file_path, 'r') as file:
+            for line_number, line in enumerate(file, 1):
+                print(f"Line {line_number}: {line.rstrip()}")
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
